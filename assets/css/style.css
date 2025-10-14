@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #272829;
 }
 
@@ -74,7 +74,7 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  width: 350px;
+  width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -97,7 +97,7 @@ h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 #header .profile h1 a,
@@ -1147,7 +1147,6 @@ section {
     padding-right: 20px 15px;
   }
 }
-.pub-divider {
   display: flex;
   align-items: center;
   text-align: center;
@@ -1195,5 +1194,3 @@ section {
   font-size: 16px;
   color: #173b6c; /* 深蓝色 */
 }
-
-
