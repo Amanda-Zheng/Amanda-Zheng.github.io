@@ -1147,12 +1147,12 @@ section {
     padding-right: 20px 15px;
   }
 }
+.pub-divider {
   display: flex;
   align-items: center;
   text-align: center;
   margin: 1.5em 0;
 }
-
 .pub-divider::before,
 .pub-divider::after {
   content: '';
