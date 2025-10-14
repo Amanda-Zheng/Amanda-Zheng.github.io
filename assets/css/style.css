@@ -1150,31 +1150,28 @@ section {
 .pub-divider {
   display: flex;
   align-items: center;
-  text-align: center;
+  justify-content: center; /* 居中整个分割线 */
   margin: 1.5em 0;
 }
+
 .pub-divider::before,
 .pub-divider::after {
   content: '';
   display: inline-block;
-  width: 40px;   
-  border-bottom: 2px dashed #173b6c; /* 分割线灰色 */
+  width: 40px;                 /* 左右线段长度 */
+  border-bottom: 2px dashed #173b6c;
 }
 
-.pub-divider:not(:empty)::before {
-  margin-right: 0.75em;
-}
-
-.pub-divider:not(:empty)::after {
-  margin-left: 0.75em;
-}
+.pub-divider::before { margin-right: 0.75em; }
+.pub-divider::after { margin-left: 0.75em; }
 
 .pub-divider span {
-  font-family: 'Raleway', serif; /* Raleway字体 */
-  font-size: 1rem;              /* 小一号 */
-  font-weight: bold;               /* 加粗 */
-  color: #173b6c;                  /* 蓝色（和主题色一致） */
+  font-family: 'Raleway', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #173b6c;
 }
+
 .pub-list {
   counter-reset: pub-counter; /* 初始化编号 */
 }
