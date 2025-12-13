@@ -1,278 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Xin Zheng — Assistant Professor @ RMIT University. Data-centric AI, Automated Graph ML, AI for Science." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="google-site-verification" content="mJWw6t-2Mx7vDBcWZwOuirFLxwG5BoJElO5LTZu0Y3k" />
+  <meta name="description"
+    content="I am an Assistant Professor in School of Computing Technologies, RMIT University, Australia. Research: Data-centric AI, Automated Graph ML, AI for Science.">
+  <meta name="keywords"
+    content="xin, xinzheng, xin zheng, rmit university, monash university, griffith university, shirui pan, chunyang chen">
   <title>Xin Zheng, RMIT University</title>
   <link rel="shortcut icon" href="./assets/walking.png">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700|Poppins:300,400,500,600,700" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS -->
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Concept CSS (new) -->
-  <link href="style_concept.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170043246-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170043246-1');
+  </script>
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-  <!-- Top Bar -->
-  <header class="topbar">
-    <div class="topbar-inner">
-      <a class="brand" href="#home">Xin Zheng</a>
 
-      <nav class="topnav" aria-label="Primary navigation">
-        <a class="navlink" href="#home">Home</a>
-        <a class="navlink active" href="#basics">Basics</a>
-        <a class="navlink" href="#research">Research</a>
-        <a class="navlink" href="#services">Services</a>
-        <a class="navlink" href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-  <main class="page" id="home">
-    <div class="layout">
-      <!-- Left profile card -->
-      <aside class="sidebar">
-        <div class="card profile-card">
-          <div class="avatar-wrap">
-            <img class="avatar" src="assets/img/avatar.png" alt="Xin Zheng portrait">
-          </div>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
 
-          <h1 class="name">Xin Zheng</h1>
-          <p class="subtitle">Assistant Professor @ RMIT University</p>
-
-          <div class="pill">Data-centric AI • Graph ML • AI for Science</div>
-
-          <div class="actions">
-            <a class="btn btn-primary btn-sm" href="#contact">Get in touch</a>
-            <a class="btn btn-outline-secondary btn-sm" href="#research">See research</a>
-          </div>
-
-          <div class="social">
-            <a href="mailto:zhengxin.cs@gmail.com" target="_blank" aria-label="Email"><i class="bi bi-envelope"></i></a>
-            <a href="https://www.linkedin.com/in/xin-zheng-ba6792217/?originalSubdomain=au" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="https://github.com/Amanda-Zheng" target="_blank" aria-label="GitHub"><i class="bi bi-github"></i></a>
-            <a href="https://scholar.google.com/citations?user=WAl7OtMAAAAJ&hl=zh-CN" target="_blank" aria-label="Google Scholar"><i class="bi bi-mortarboard"></i></a>
-          </div>
-
-          <div class="uni">
-            <div class="uni-mark">RMIT</div>
-            <div class="uni-text">
-              School of Computing Technologies<br/>
-              Melbourne, Australia
-            </div>
-          </div>
+      <div class="profile">
+        <img src="assets/img/avatar.png" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="">Xin Zheng</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!-- <a href="https://twitter.com/FSidong" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a> -->
+          <a href="mailto:zhengxin.cs@gmail.com" class="mail" target="_blank"><i class="bx bxl-gmail"></i></a>
+          <a href="https://www.linkedin.com/in/xin-zheng-ba6792217/?originalSubdomain=au" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Amanda-Zheng" class="github" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://scholar.google.com/citations?user=WAl7OtMAAAAJ&hl=zh-CN" class="google" target="_blank"><i class="bx bxl-google"></i></a>
         </div>
-      </aside>
+      </div>
 
-      <!-- Main content -->
-      <section class="content">
-        <!-- About -->
-        <section id="basics" class="card section-card">
-          <div class="section-head">
-            <h2>About Me</h2>
-            <p>
-              I am an Assistant Professor in the Data Science and Artificial Intelligence (DSAI) Discipline, School of Computing Technologies at RMIT University, Australia.
-              Before this, I was an Assistant Professor in the School of ICT at Griffith University and a member of TrustAGI Lab led by Prof. Shirui Pan.
-              My research focuses on Data-centric AI, Automated Graph Machine Learning, and AI for Science.
-            </p>
-          </div>
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#news" class="nav-link scrollto"><i class="bx bx-news"></i> <span>News</span></a></li>
+          <li><a href="#awards" class="nav-link scrollto"><i class="bx bx-trophy"></i> <span>Awards</span></a></li>
+          <li><a href="#research" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Research</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-user-pin"></i> <span>Services</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
-          <!-- Tabs (pure HTML anchors) -->
-          <div class="tabs">
-            <a class="tab active" href="#research">Research</a>
-            <a class="tab" href="#interests">Interests</a>
-            <a class="tab" href="#students">Students</a>
-          </div>
-        </section>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Xin Zheng</h1>
+      <div class="hero-sub">Assistant Professor @ RMIT University</div>
+      <p>I'm interested in <span class="typed" data-typed-items="Data-centric AI, Automated Graph ML, AI for Science"></span></p>
+    </div>
+  </section><!-- End Hero -->
 
-        <!-- Interests (compact) -->
-        <section id="interests" class="card section-card">
-          <div class="section-head">
-            <h2>Research Interests</h2>
-          </div>
+  <main id="main">
 
-          <div class="tag-grid">
-            <div class="tag">Data-centric AI</div>
-            <div class="tag">Automated Graph Machine Learning</div>
-            <div class="tag">AI for Bio</div>
-            <div class="tag">AI for Healthcare</div>
-          </div>
-        </section>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
 
-        <!-- Two-column: News + Publications -->
-        <div class="two-col">
-          <section id="news" class="card section-card">
-            <div class="section-head tight">
-              <h2>News</h2>
-            </div>
+        <div class="section-title">
+          <h2>About</h2>
+          <p> I am an Assistant Professor in the Data Science and Artificial Intelligence (DSAI) Discipline, School of Computing Technologies at RMIT University, Australia. Before this, I was an Assistant Professor in the School of ICT at Griffith University, Australia, 
+            and a member of <a href="https://trust-agi.github.io/" target="_blank">TrustAGI Lab</a> led by <a href="https://shiruipan.github.io/" target="_blank">Prof. Shirui Pan</a>.
 
-            <div class="list">
-              <div class="item">
-                <div class="dot"></div>
-                <div class="item-body">
-                  <div class="item-title">ICDM 2025 Best Paper Runner-Up</div>
-                  <div class="item-meta">Nov 2025 · “Test-Time Graph Rebirth: For GNN Generalization Under Distribution Shifts”</div>
-                </div>
-              </div>
-
-              <div class="item">
-                <div class="dot"></div>
-                <div class="item-body">
-                  <div class="item-title">CORE Award — Australasian Distinguished Doctoral Dissertation 2026</div>
-                  <div class="item-meta">Nov 2025</div>
-                </div>
-              </div>
-
-              <div class="item">
-                <div class="dot"></div>
-                <div class="item-body">
-                  <div class="item-title">NeurIPS 2025</div>
-                  <div class="item-meta">Sep 2025 · Data-Free Model Extraction for Black-box Recommender Systems via Graph Convolutions</div>
-                </div>
-              </div>
-
-              <a class="more" href="#news-full">View all news →</a>
-            </div>
-          </section>
-
-          <section id="publications" class="card section-card">
-            <div class="section-head tight">
-              <h2>Selected Publications</h2>
-            </div>
-
-            <div class="list">
-              <div class="item">
-                <div class="dot"></div>
-                <div class="item-body">
-                  <div class="item-title">[ICDM'25] Test-Time Graph Rebirth</div>
-                  <div class="item-meta">X. Zheng, Y. Zheng, Q. Zhang, H. Wang, …</div>
-                </div>
-              </div>
-
-              <div class="item">
-                <div class="dot"></div>
-                <div class="item-body">
-                  <div class="item-title">[ICML'25] Test-Time Graph Neural Dataset Search</div>
-                  <div class="item-meta">X. Zheng, W. Huang, C. Zhou, …</div>
-                </div>
-              </div>
-
-              <div class="item">
-                <div class="dot"></div>
-                <div class="item-body">
-                  <div class="item-title">[ICLR'24 Spotlight] Online GNN Evaluation Under Shifts</div>
-                  <div class="item-meta">X. Zheng, D. Song, Q. Wen, …</div>
-                </div>
-              </div>
-
-              <a class="more" href="#research">Go to full research →</a>
-            </div>
-          </section>
+            My research focuses on Data-centric AI, Automated Graph Machine Learning, and AI for Science. 
+            My work has been featured in prestigious journals and conferences, such as IJCV, ICML, NeurIPS, ICLR, AAAI, and WWW, etc. 
+            I was also a recipient of the 2024 Postgraduate Publications Award from Monash University.</p>
         </div>
 
-        <!-- Students -->
-        <section id="students" class="card section-card">
-          <div class="section-head">
-            <h2>Students &amp; Collaborators</h2>
-            <p>Selected current students. (You can expand this section over time.)</p>
-          </div>
-
-          <div class="student-grid">
-            <div class="student">
-              <div class="student-name">Bo Li</div>
-              <div class="student-meta">Ph.D., Griffith University (Australia)</div>
-              <div class="student-topic">Dynamic Graph Learning</div>
-              <div class="student-out">CIKM'25 · ICDM'25 (×2)</div>
+        <div class="content" data-aos="fade-left">
+            <h3>Research Interest</h3>
+            <div class="row">
+              <div>
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i><strong>Data-centric AI</strong></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Automated Graph Machine Learning</strong></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>AI for Bio</strong></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>AI for Healthcare</strong></li>
+                </ul>
+                <!-- <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>App Design</strong> <span>[<a href="./papers/designGallery_CSCW19.pdf" target="_blank">CSCW'19</a>, <a href="https://arxiv.org/abs/2008.06895" target="_blank">CSCW'20</a>, <a href="https://arxiv.org/pdf/2312.07755.pdf" target="_blank">CHI'24 workshop</a>]</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>App Development</strong> <span>[<a href="./papers/icon_IUI21.pdf" target="_blank">IUI'21</a>, <a href="https://dl.acm.org/doi/pdf/10.1145/3531065" target="_blank">TIIS'22</a>, 
+                    <a href="https://arxiv.org/pdf/2308.03252.pdf" target="_blank">UIST'23a</a>, 
+                    <a href="https://arxiv.org/pdf/2308.05898.pdf" target="_blank">UIST'23b</a>,
+                    <a href="https://dl.acm.org/doi/pdf/10.1145/3613904.3642350" target="_blank">CHI'24</a>]</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>App Testing</strong> <span>[<a href="./papers/uied.pdf" target="_blank">FSE'20</a>, 
+                    <a href="https://arxiv.org/abs/2112.04128" class="post-title" target="_blank">ICSE'22</a>, 
+                    <a href="https://arxiv.org/pdf/2206.10352.pdf" target="_blank">ESEC/FSE'22</a>, 
+                    <a href="https://arxiv.org/pdf/2212.05203.pdf" target="_blank">ICSE'23a</a>,
+                    <a href="https://arxiv.org/pdf/2302.00886.pdf" target="_blank">ICSE'23b</a>,
+                    <a href="https://arxiv.org/pdf/2308.06657.pdf" target="_blank">ESEC/FSE'23 Industry</a>,
+                    <a href="https://arxiv.org/pdf/2306.01987.pdf" target="_blank">ICSE'24</a>,
+                    <a href="https://arxiv.org/pdf/2407.05165" target="_blank">ISSTA'24</a>,
+                    <a href="https://arxiv.org/pdf/2409.07829" target="_blank">ASE'24 Industry</a>]</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>LLM-relevant works</strong> <span>[bug replay (<a href="https://arxiv.org/pdf/2306.01987.pdf" target="_blank">ICSE'24</a>, <a href="https://arxiv.org/pdf/2407.05165" target="_blank">ISSTA'24</a>), app exploration (<a href="https://dl.acm.org/doi/pdf/10.1145/3613904.3642350" target="_blank">CHI'24</a>, <a href="https://arxiv.org/pdf/2409.07829" target="_blank">ASE'24 Industry</a>), UI design (<a href="https://arxiv.org/pdf/2312.07755.pdf" target="_blank">CHI'24 workshop</a>)]</span></li>
+                </ul> -->
+              </div>
             </div>
-
-            <div class="student">
-              <div class="student-name">Zeyu Wang</div>
-              <div class="student-meta">Visiting Ph.D., Griffith University · ZJUT (China)</div>
-              <div class="student-topic">Molecular Property Learning · Recommender Security</div>
-              <div class="student-out">NeurIPS'25 · arXiv'25</div>
-            </div>
-
-            <div class="student">
-              <div class="student-name">Yating Liu</div>
-              <div class="student-meta">MSc, Dalian University of Technology (China)</div>
-              <div class="student-topic">TTA on Recommendation Systems</div>
-              <div class="student-out">IJCAI'25</div>
-            </div>
+            <!-- <div class="cv_button"><a href="./resume/resume-source/Resumev9.pdf" target="_blank" >Download CV </a>(Updated: Oct, 2024)</div> -->
           </div>
-        </section>
+          
+      </div>
+    </section><!-- End About Section -->
 
-        <!-- Research (placeholder anchor target) -->
-        <section id="research" class="card section-card">
-          <div class="section-head">
-            <h2>Research</h2>
-            <p>
-              This section can reuse your existing publications list. For now, keep your current long-form “Research” section,
-              and migrate gradually into cards or grouped lists.
-            </p>
+    
+
+    <!-- ======= News Section ======= -->
+    <section id="news" class="news section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>News</h2>
+          <div data-aos="fade-up">
+            <ul>
+              <li>[Nov 2025] <i class="bi bi-award"></i> Our paper <b>“Test-Time Graph Rebirth: For GNN Generalization Under Distribution Shifts”</b> was selected as the <b>ICDM 2025 Best Paper Runner-Up Award</b>!</li>
+              <li>[Nov 2025] <i class="bi bi-award"></i> I was awarded <b><a href="https://www.core.edu.au/newsletters/news-2025" target="_blank" rel="noopener noreferrer">CORE Award for the Australasian Distinguished Doctoral Dissertation</a></b> for 2026!</li>
+              <li>[Oct 2025] <i class="bi bi-file-earmark-text"></i> <b>Arxiv 2025</b>: 
+                <a href="https://arxiv.org/pdf/2510.08900" target="_blank">Few-shot Molecular Property Prediction: A Survey</a>.
+              </li>
+              
+              <li>[Sep 2025] <i class="bi bi-award"></i> Our team was awarded <b>NVIDIA Academic Grant Program</b>: "Natural Language-Driven Protein Sequence and Structure Co-Design."</li>
+              
+              <li>[Sep 2025] <i class="bi bi-file-earmark-text"></i> <b>ICDM 2025</b>:  
+                <ul>
+                  <li><a href="https://arxiv.org/pdf/2509.23816" target="_blank">Test-time GNN Model Evaluation on Dynamic Graphs</a>.</li>
+                  <li><a href="https://openreview.net/pdf?id=rW3NVhKtQ2" target="_blank">Test-Time Graph Rebirth: Serving GNN Generalization Under Distribution Shifts</a>.</li>
+                </ul>
+              </li>
+              
+              <li>[Sep 2025] <i class="bi bi-file-earmark-text"></i> <b>NeurIPS 2025</b>: 
+                Data-Free Model Extraction for Black-box Recommender Systems via Graph Convolutions.
+              </li>
+              
+              <li>[Aug 2025] <i class="bi bi-file-earmark-text"></i> <b>CIKM 2025</b>: 
+                <a href="https://arxiv.org/pdf/2508.21570" target="_blank">OASIS: Harnessing Diffusion Adversarial Network for Ocean Salinity Imputation using Sparse Drifter Trajectories</a>.
+              </li>
+              
+              <li>[Aug 2025] <i class="bi bi-file-earmark-text"></i> <b>Arxiv 2025</b>: 
+                <a href="https://arxiv.org/pdf/2508.17298" target="_blank">Explain Before You Answer: A Survey on Compositional Visual Reasoning</a>.
+              </li>
+              
+              <li>[Jul 2025] <i class="bi bi-award"></i> I was awarded <b>2025 Fellowship Accelerator Application Scheme</b> from Griffith University.</li>
+              <li>[May 2025] <i class="bi bi-award"></i> I was awarded <b>2025 Sciences Advancing Women’s Research Success</b> from Griffith University.</li>
+              
+              <li>[May 2025] <i class="bi bi-file-earmark-text"></i> <b>ICML 2025</b>: 
+                Test-Time Graph Neural Dataset Search With Generative Projection.
+              </li>
+              
+              <li>[May 2025] <i class="bi bi-file-earmark-text"></i> <b>ICME 2025</b>: 
+                Long-Tailed Federated Learning with Fixed Classifier.
+              </li>
+              
+              <li>[May 2025] <i class="bi bi-award"></i> I was awarded <b>ICLR Notable Reviewer 2025</b>.</li>
+              
+              <li>[Apr 2025] <i class="bi bi-file-earmark-text"></i> <b>IJCAI 2025</b>: 
+                Test-Time Adaptation on Recommender System with Data-Centric Graph Transformation.
+              </li>
+              
+            </ul>
           </div>
+        </div>
+      </div>
+    </section><!-- End News Section -->
+<!-- ======= Students Section ======= -->
+<section id="students" class="students">
+  <div class="container">
 
-          <div class="hint">
-            Tip: You can paste your current <strong>First-Author Publications</strong> and <strong>Supervised Student First-Author Publications</strong> blocks here as-is.
-          </div>
-        </section>
-
-        <!-- Services -->
-        <section id="services" class="card section-card">
-          <div class="section-head">
-            <h2>Services</h2>
-          </div>
-
-          <div class="service-grid">
-            <div class="service">
-              <div class="service-title">Organizer</div>
-              <div class="service-text">Workshop Chair, PAKDD 2025</div>
-            </div>
-            <div class="service">
-              <div class="service-title">Reviewer / PC</div>
-              <div class="service-text">ICML, NeurIPS, ICLR, ICDM, KDD, IJCAI, CIKM, WWW, …</div>
-            </div>
-            <div class="service">
-              <div class="service-title">Invited Speaker</div>
-              <div class="service-text">Automated Graph MLOps (UQ, 2024); ADC (UniMelb, 2023)</div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Contact -->
-        <section id="contact" class="card section-card">
-          <div class="section-head">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:zhengxin.cs@gmail.com">zhengxin.cs@gmail.com</a></p>
-          </div>
-        </section>
-
-        <footer class="page-footer">
-          <div>© <span id="year"></span> Xin Zheng</div>
-        </footer>
-      </section>
+    <div class="section-title">
+      <h2>Students &amp; Collaborators</h2>
+      <p>
+        I work closely with Ph.D. and master's students across multiple institutions. Our research focuses on data-centric AI,
+        graph machine learning, and AI for science and healthcare.
+      </p>
     </div>
-  </main>
 
+    <div data-aos="fade-up">
+
+      <h3 style="font-size:1.25rem; margin-top:2.2rem; margin-bottom:1.2rem;">
+        Ph.D. Students (Main Supervised)
+      </h3>
+
+      <ul style="padding-left:1.2rem; margin:0;">
+        <li style="margin-bottom:1.8rem;">
+          <div><strong>Bo Li</strong> (Ph.D., Griffith University, Australia)</div>
+          <div style="margin-top:0.4rem;">Topic: Dynamic Graph Learning.</div>
+          <div style="margin-top:0.4rem;">Research Outputs: CIKM'2025, ICDM'2025 (×2).</div>
+        </li>
+
+        <li style="margin-bottom:1.8rem;">
+          <div>
+            <strong>Zeyu Wang</strong> (Visiting Ph.D., Griffith University, Australia; Zhejiang University of Technology, China)
+          </div>
+          <div style="margin-top:0.4rem;">
+            Topic: Molecular Property Learning; Recommendation System Security; On-device Security.
+          </div>
+          <div style="margin-top:0.4rem;">
+            Research Outputs: NeurIPS'2025; arXiv'2025 (Survey on Molecular).
+          </div>
+        </li>
+
+        <li style="margin-bottom:1.8rem;">
+          <div>
+            <strong>Hongjiang Chen</strong> (Upcoming Visiting Ph.D., Griffith University; Hangzhou Dianzi University, China)
+          </div>
+          <div style="margin-top:0.4rem;">
+            Topic: Dynamic Graph Explainability; Multi-LLM-agent Communication System Design.
+          </div>
+          <div style="margin-top:0.4rem;">
+            Research Outputs: In Progress (have published IJCAI'2025 (×2), PR'2026, etc.).
+          </div>
+        </li>
+
+        <li style="margin-bottom:1.8rem;">
+          <div>
+            <strong>Ming Yang</strong> (Upcoming Visiting Ph.D., Monash University; Dalian University of Technology, China)
+          </div>
+          <div style="margin-top:0.4rem;">
+            Topic: AI4Bio; Protein Sequence and Structure Co-design.
+          </div>
+          <div style="margin-top:0.4rem;">
+            Research Outputs: In Progress (have published PAKDD'2025, etc.).
+          </div>
+        </li>
+
+        <li style="margin-bottom:0.6rem;">
+          <div><strong>Huanchang Ma</strong> (Ph.D., Northeast Normal University, China)</div>
+          <div style="margin-top:0.4rem;">Topic: Data-centric Graph Model Evaluation; AI4Healthcare.</div>
+          <div style="margin-top:0.4rem;">Research Outputs: In Progress.</div>
+        </li>
+      </ul>
+
+      <h3 style="font-size:1.25rem; margin-top:2.4rem; margin-bottom:1.2rem;">
+        Master Students
+      </h3>
+
+      <ul style="padding-left:1.2rem; margin:0;">
+        <li style="margin-bottom:0.6rem;">
+          <div><strong>Yating Liu</strong> (MSc, Dalian University of Technology, China)</div>
+          <div style="margin-top:0.4rem;">Topic: Test-time Adaptation on Recommendation System.</div>
+          <div style="margin-top:0.4rem;">Research Outputs: IJCAI'2025.</div>
+        </li>
+      </ul>
+
+    </div>
+
+  </div>
+</section>
+<!-- End Students Section -->
+
+
+
+    <!-- ======= Awards Section ======= -->
+    <section id="awards" class="awards">
+      <div class="container">
+        <div class="section-title">
+          <h2>Awards</h2>
+          <div data-aos="fade-up">
+            <ul>
+              <li>[2025] ICLR Notable Reviewer </li>
+              <li>[2025] NVIDIA Academic Grant Program on AI for Bioinformatics</li>
+              <li>[2025] 2025 Fellowship Accelerator Application Scheme from Griffith University</li>
+              <li>[2025] 2025 Sciences Advancing Women’s Research Success from Griffith University</li>
+              <li>[2024] NVIDIA Academic Grant Program on Graph Machine Learning</li>
+              <li>[2024] Postgraduate Publications Award from Monash University</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section><!-- End News Section -->
+
+    <!-- ======= Research Section ======= -->
+    <section id="research" class="research section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Research</h2>
+          <div data-aos="fade-up">
+    
+            <!-- ===== First-Author Publications ===== -->
+            <div class="pub-divider"><span>First-Author Publications</span></div>
+
+          <div class="pub-list">    
+            <div class="pub-item">
+              <h6 class="fg-theme">[ICDM'25] <b>Test-Time Graph Rebirth: Serving GNN Generalization Under Distribution Shifts</b></h6>
+              <p><u>X. Zheng</u>, Y Zheng, Q Zhang, H Wang, Y Liang, AWC Liew, S Pan</p>
+              <div class="pub-element">
+                <!-- 若有公开PDF可在这里加 -->
+              </div>
+            </div>
+            <div class="pub-item">
+              <h6 class="fg-theme">[ICML'25] <b>Test-Time Graph Neural Dataset Search With Generative Projection</b></h6>
+              <p><u>X. Zheng</u>, W. Huang, C. Zhou, M. Li, S. Pan</p>
+              <div class="pub-element">
+                <!-- 若有公开PDF可在这里加 -->
+              </div>
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[ICLR'24 Spotlight] <b>Online GNN Evaluation Under Test-time Graph Distribution Shifts</b></h6>
+              <p><u>X. Zheng</u>, D. Song, Q. Wen, B. Du, S. Pan</p>
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[NeurIPS'23] <b>GNNEvaluator: Evaluating GNN Performance On Unseen Graphs Without Labels</b></h6>
+              <p><u>X. Zheng</u>, M. Zhang, C. Chen, S. Molaei, C. Zhou, S. Pan</p>
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[NeurIPS'23 Spotlight] <b>Structure-free Graph Condensation: From Large-scale Graphs to Condensed Graph-free Data</b></h6>
+              <p><u>X. Zheng</u>, M. Zhang, C. Chen, Q. V. H. Nguyen, X. Zhu, S. Pan</p>
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[WWW'23] <b>Auto-HeG: Automated Graph Neural Network on Heterophilic Graphs</b></h6>
+              <p><u>X. Zheng</u>, M. Zhang, C. Chen, Q. Zhang, C. Zhou, S. Pan</p>
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[ICDM'22] <b>Multi-Relational Graph Neural Architecture Search with Fine-grained Message Passing</b></h6>
+              <p><u>X. Zheng</u>, M. Zhang, C. Chen, C. Li, C. Zhou, S. Pan</p>
+            </div>
+    
+            <!-- <div class="pub-item">
+              <h6 class="fg-theme">[PR'22] <b>Robust Physical-World Attacks on Face Recognition</b></h6>
+              <p><u>X. Zheng</u>, Y. Fan, B. Wu, Y. Zhang, J. Wang, S. Pan</p>
+            </div> -->
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[Survey] <b>Graph Neural Networks for Graphs with Heterophily: A Survey</b></h6>
+              <p><u>X. Zheng</u>, Y. Liu, S. Pan, M. Zhang, D. Jin, P. S. Yu</p>
+              <!-- <div class="pub-element">
+                <div class="floating-button"><a href="https://arxiv.org/abs/2202.07082" target="_blank">PDF</a></div>
+              </div>-->
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[Survey] <b>Towards Data-centric Graph Machine Learning: Review and Outlook</b></h6>
+              <p><u>X. Zheng</u>, Y. Liu, Z. Bao, M. Fang, X. Hu, A. W. C. Liew, S. Pan</p>
+              <!-- <div class="pub-element">
+                <div class="floating-button"><a href="https://arxiv.org/abs/2309.10979" target="_blank">PDF</a></div>
+              </div> -->
+            </div>
+    
+            <!-- <div class="pub-item">
+              <h6 class="fg-theme">[IJCV'20] <b>A Survey of Deep Facial Attribute Analysis</b></h6>
+              <p><u>X. Zheng</u>, Y. Guo, H. Huang, Y. Li, R. He</p>
+            </div> -->
+    
+            <!-- ===== Supervised Student First-Author ===== -->
+            <div class="pub-divider"><span>Supervised Student First-Author Publications</span></div>
+            <!-- <h3 class="fg-theme" style="margin:24px 0 6px;">Publications with Supervised Student First-Author</h3> -->
+            
+            <div class="pub-item">
+            <h6 class="fg-theme">[NeurIPS'25] <b>Data-Free Model Extraction for Black-box Recommender Systems via Graph Convolutions</b></h6>
+            <p>Z. Wang, Y. Song, S. Qin, S. Yu, Y. Huang, Q. Xuan, <u>X. Zheng</u></p>
+            </div>
+
+
+            <div class="pub-item">
+              <h6 class="fg-theme">[IJCAI'25] <b>Test-Time Adaptation on Recommender System with Data-Centric Graph Transformation</b></h6>
+              <p>Y. Liu, <u>X. Zheng</u>, Y. Li, Y. Guo</p>
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[AAAI'25] <b>A Label-Free Heterophily-Guided Approach for Unsupervised Graph Fraud Detection</b></h6>
+              <p>J. Pan, Y. Liu, <u>X. Zheng</u>, Y. Zheng, A. W. C. Liew, F. Li, S. Pan</p>
+            </div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[CIKM'25] <b>OASIS: Harnessing Diffusion Adversarial Network for Ocean Salinity Imputation using Sparse Drifter Trajectories</b></h6>
+              <p>B. Li, Y. Feng, M. Jin, <u>X. Zheng</u>, …, S. Pan, X. Zhu</p>
+              <!-- <div class="pub-element">
+                <div class="floating-button"><a href="https://arxiv.org/pdf/2508.21570" target="_blank">PDF</a></div>
+              </div> -->
+            </div>
+    
+            <!-- <div class="pub-item">
+              <h6 class="fg-theme">[ICME'25] <b>Long-Tailed Federated Learning with Fixed Classifier</b></h6>
+              <p>Y. Li, W. Li, <u>X. Zheng</u>, H. Fu, Y. Guo</p>
+            </div> -->
+    
+            <!-- <div class="pub-item">
+              <h6 class="fg-theme">[ICASSP'25] <b>PAFedMIS: Personalized Asynchronous Federated Learning for Medical Image Segmentation</b></h6>
+              <p>Y. Li, Y. Hua, <u>X. Zheng</u>, Y. Guo, B. Wang</p>
+            </div> -->
+
+    
+            <!-- ===== Edited Book ===== -->
+            <!-- <h3 class="fg-theme" style="margin:24px 0 6px font-size:1.1rem;">Edited Book</h3> -->
+            <div class="pub-divider"><span>Edited Book</span></div>
+    
+            <div class="pub-item">
+              <h6 class="fg-theme">[Springer, 2025] <b>Trends and Applications in Knowledge Discovery and Data Mining: PAKDD 2025 Workshops</b></h6>
+              <p>S. Yuan, F. Malliaros, <u>X. Zheng</u> (Eds.)</p>
+              <div class="pub-element">
+                <!-- 可补 Springer 链接 -->
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    
+
+    <!-- ======= News Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Services</h2>
+        </div>
+        <div class="content" data-aos="fade-left">
+          <h3>Organizer</h3>
+          <ul>
+            <li>Workshop Chair in the 29-th the Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD) 2025 </li>
+          </ul>
+          <h3>Program Committee and Reviewer</h3>
+          <ul>
+            <li>Conferences: ICML, NeurIPS, ICLR, ICDM, KDD, IJCAI, CIKM, WWW, PAKDD, ACMMMM, etc.
+            <li>Journals: IEEE TNNLS, TKDE, Neural Networks, etc.</li>
+          </ul>
+          <h3>Invited Speaker</h3>
+          <ul>
+            <li>ARC Training Center Information Resilience PhD School for `Automated Graph MLOps', University of Queensland, Brisbane, Australia, 2024</li>
+            <li>Australia Database Conference (ADC), University of Melbourne, Melbourne, Australia, 2023.</li>
+          </ul>
+        </div>
+      </div>
+    </section><!-- End News Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Xin Zheng</span></strong>
+      </div>
+      <!-- <div class="credits"> -->
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+      <!-- </div> -->
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    // light active state for top nav
-    (function(){
-      const links = document.querySelectorAll('.topnav .navlink');
-      function setActiveFromHash(){
-        const h = (location.hash || '#basics').replace('#','');
-        links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + h || (h === 'home' && a.getAttribute('href')==='#home'));
-      }
-      window.addEventListener('hashchange', setActiveFromHash);
-      setActiveFromHash();
-    })();
-  </script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
+
 </html>
+
+
+
+
+
+
